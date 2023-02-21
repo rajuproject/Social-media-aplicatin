@@ -1,5 +1,6 @@
 import React from 'react'
 import { SparklesIcon } from '@heroicons/react/24/solid'
+import Input from './Input'
 function Feed() {
   return (
     <div className='xl:ml-[370px] border-l border-r xl:min-w-[576px] sm:ml-[73px] flex-grow max-w-xl' >
@@ -11,7 +12,7 @@ function Feed() {
     </div>
 
     </div>
-    
+    <Input/>
     </div>
   )
 }
